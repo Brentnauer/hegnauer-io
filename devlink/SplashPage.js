@@ -61,7 +61,7 @@ export function SplashPage({ as: _Component = _Builtin.Block }) {
             className={_utils.cx(_styles, "text-block-2")}
             tag="div"
           >
-            {"New site combing soon!"}
+            {"New site coming soon!"}
           </_Builtin.Block>
           <_Builtin.Heading className={_utils.cx(_styles, "heading")} tag="h1">
             {"Experiments in code, games, and stories."}
