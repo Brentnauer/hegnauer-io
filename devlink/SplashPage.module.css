@@ -5,6 +5,15 @@
   color: white;
 }
 
+.splash-background {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
 .div-block-2 {
   position: absolute;
   left: 0%;
@@ -89,13 +98,4 @@
   .text-block-3 {
     font-size: 14px;
   }
-}
-
-.splash-background {
-  display: flex;
-  height: 100vh;
-  flex-direction: column;
-  justify-content: flex-start;
-  flex-wrap: nowrap;
-  align-items: stretch;
 }
