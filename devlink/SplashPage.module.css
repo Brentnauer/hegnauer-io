@@ -71,24 +71,6 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 991px) {
-  .heading {
-    font-size: 34px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .heading {
-    font-size: 38px;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  .heading {
-    font-size: 30px;
-  }
-}
-
 .text-block-3 {
   font-size: 18px;
   font-style: italic;
