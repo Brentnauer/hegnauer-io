@@ -1,10 +1,16 @@
-.splash-background {
-  display: flex;
+.div-block {
+  position: relative;
+  overflow: hidden;
   height: 100vh;
-  flex-direction: column;
-  justify-content: flex-start;
-  flex-wrap: nowrap;
-  align-items: stretch;
+  color: white;
+}
+
+.div-block-2 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
 }
 
 .navbar {
@@ -36,6 +42,7 @@
 
 .container {
   display: flex;
+  height: 100%;
   max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
@@ -82,4 +89,13 @@
   .text-block-3 {
     font-size: 14px;
   }
+}
+
+.splash-background {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: stretch;
 }
